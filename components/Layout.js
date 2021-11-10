@@ -31,10 +31,10 @@ function Layout({ children }) {
                   fill="currentColor"
                 />
               </svg>
-              <span className="mx-1 text-sm">NY</span>
+              <span className="mx-1 text-sm"></span>
             </div>
             <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
-              Pulp Inc.
+              
             </div>
             <div className="flex items-center justify-end w-full">
               <button
@@ -79,17 +79,17 @@ function Layout({ children }) {
             <div className="flex flex-col sm:flex-row">
               <Link href="/">
                 <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
-                  Home
+                 
                 </a>
               </Link>
               <Link href="/products">
                 <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
-                  Shop
+                 
                 </a>
               </Link>
               <Link href="/about">
                 <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
-                  About
+                  
                 </a>
               </Link>
             </div>
@@ -111,11 +111,7 @@ function Layout({ children }) {
               </svg>
             </span>
 
-            <input
-              className="w-full border rounded-md pl-10 pr-4 py-2 focus:border-blue-500 focus:outline-none focus:shadow-outline"
-              type="text"
-              placeholder="Search"
-            />
+           
           </div>
         </div>
       </header>
@@ -130,9 +126,9 @@ function Layout({ children }) {
             href="#"
             className="text-xl font-bold text-gray-500 hover:text-gray-400"
           >
-            Pulp Inc.
+            
           </a>
-          <p className="py-2 text-gray-500 sm:py-0">All rights reserved</p>
+          <p className="py-2 text-gray-500 sm:py-0"></p>
         </div>
       </footer>
     </div>
